@@ -57,17 +57,17 @@ public class Main {
     }
     public static void task4() {
         System.out.println("Задача 4");
-        int deliveryDistance = 65;
+        int deliveryDistance = 19;
         byte deliveryDays;
         if (deliveryDistance >= 100) {
             System.out.println("Доставки нет");
         }
         else {
             deliveryDays = 1;
-            if (deliveryDistance > 20 && deliveryDistance <= 100) {
+            if (deliveryDistance > 20) {
                 deliveryDays++;
             }
-            if (deliveryDistance > 60 && deliveryDistance <= 100) {
+            if (deliveryDistance > 60) {
                 deliveryDays++;
             }
             System.out.println("Требуется дней: " + deliveryDays);
